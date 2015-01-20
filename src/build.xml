@@ -1,0 +1,7 @@
+<project name="Redmine" default="package" basedir=".">
+  <property name="pluginKey" value="Redmine" />
+  <property name="pluginVersion" value="1.0.0" />
+  <path id="extras" />
+  <property name="gwt.path.extras" value="extras" />
+  <import file="${SDKROOT}/build/buildTargets.xml" />
+</project>
